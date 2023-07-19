@@ -16,12 +16,12 @@
 
 $BrandingContent = @"
 RegKeyPath,Key,Value
-"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","SupportURL","https://support.cloudlimits.com/"
-"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","Manufacturer","Cloud Limits"
-"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","SupportHours","Standard: 0700-1600, Extended: 24-7-365"
-"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","SupportPhone","+47 12 34 56 78"
-"HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion","RegisteredOwner","Cloud Limits"
-"HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion","RegisteredOrganization","Cloud Limits"
+"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","SupportURL","https://support.rastcloud.com/"
+"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","Manufacturer","RastCloud"
+"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","SupportHours","Standard: 24-7-365"
+"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation","SupportPhone","+49 123456789"
+"HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion","RegisteredOwner","RastCloud"
+"HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion","RegisteredOrganization","RastCloud"
 "@
 
 $Branding = $BrandingContent | ConvertFrom-Csv -delimiter ","
